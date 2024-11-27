@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
               "RelativeToolTip": "BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:20:33.052Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "BlazorApp\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T11:27:51.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:27:51.359Z"
             }
           ]
         }

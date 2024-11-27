@@ -18,17 +18,17 @@ namespace BlazorApp.Shared.Auth
         {
             try
             {
-                var userSessionStorageResult = await _sessionStorage.GetAsync<UserSession>("UserSession");
-                var userSession = userSessionStorageResult.Success ? userSessionStorageResult.Value : null;
-                if(userSession == null)
+                var userLocalStorageResult = await _localStorage.GetAsync<UserSession>("UserSession");
+                var userLocal = userLocalStorageResult.Success ? userLocalStorageResult.Value : null;
+                if(userLocal == null)
                 {
                     return await Task.FromResult(new AuthenticationState(_anonimous));
                 }
                 var claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
                 {
-                    new Claim(ClaimTypes.Sid, userSession.Id),
-                    new Claim(ClaimTypes.Name, userSession.UserName),
-                    new Claim(ClaimTypes.Role, userSession.Role),
+                    new Claim(ClaimTypes.Sid, userLocal.Id),
+                    new Claim(ClaimTypes.Name, userLocal.UserName),
+                    new Claim(ClaimTypes.Role, userLocal.Role),
                 }, "CustomAuth"));
                 return await Task.FromResult(new AuthenticationState(claimsPrincipal));
             }
@@ -38,22 +38,22 @@ namespace BlazorApp.Shared.Auth
             }
         }
 
-        public async Task UpdateAuthenticationStateAsync(UserSession userSession)
+        public async Task UpdateAuthenticationStateAsync(UserSession userLocal)
         {
             ClaimsPrincipal claimsPrincipal;
-            if (userSession != null)
+            if (userLocal != null)
             {
-                await _sessionStorage.SetAsync("UserSession", userSession);
+                await _localStorage.SetAsync("UserSession", userLocal);
                 claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
                 {
-                    new Claim(ClaimTypes.Sid, userSession.Id),
-                    new Claim(ClaimTypes.Name, userSession.UserName),
-                    new Claim(ClaimTypes.Role, userSession.Role),
+                    new Claim(ClaimTypes.Sid, userLocal.Id),
+                    new Claim(ClaimTypes.Name, userLocal.UserName),
+                    new Claim(ClaimTypes.Role, userLocal.Role),
                 }, "CustomAuth"));
             }
             else
             {
-                await _sessionStorage.DeleteAsync("UserSession");
+                await _localStorage.DeleteAsync("UserSession");
                 claimsPrincipal = _anonimous;
             }
         }
