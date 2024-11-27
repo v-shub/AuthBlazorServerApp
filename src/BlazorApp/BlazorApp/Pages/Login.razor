@@ -1,0 +1,52 @@
+﻿@page "/login"
+@using BlazorApp.Shared.Auth;
+@using BlazorApp.Models;
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+@inject FamilyLifeContext context
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3 text-center">
+            <h3>Login</h3>
+        </div>
+        <div class="mb-3">
+            <label>Login</label>
+            <input @bind="model.Login" />
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="model.Password" type="password"/>
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="Authenticate" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private class Model
+    {
+        public string Login{ get; set; }
+        public string Password{ get; set; }
+    }
+    private Model model = new Model();
+    private async Task Authenticate()
+    {
+        var userAccount = context.Users.Where(x => x.Username == model.Login & x.Password == model.Password).FirstOrDefault();
+        if (userAccount == null)
+        {
+            await js.InvokeVoidAsync("alert", "Invalid");
+            return;
+        }
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationStateAsync(new UserSession
+            {
+                Id = userAccount.Id.ToString(),
+                UserName = userAccount.Username,
+                Role = "User"
+            });
+        navManager.NavigateTo("/", true);
+    }
+}

@@ -2,6 +2,7 @@
 @using Microsoft.EntityFrameworkCore;
 @using BlazorApp.Models;
 @inject FamilyLifeContext context
+@attribute [Authorize(Roles ="Administrator,User")]
 
 <h2>Посты</h2>
 @foreach (var post in posts)

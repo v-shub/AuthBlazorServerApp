@@ -2,6 +2,7 @@
 @using Microsoft.EntityFrameworkCore;
 @using BlazorApp.Models;
 @inject FamilyLifeContext context
+@attribute [Authorize(Roles = "Administrator,User")]
 
 <h2>Создание нового поста</h2>
 <h3>Заголовок</h3>
