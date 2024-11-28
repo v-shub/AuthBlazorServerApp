@@ -34,7 +34,7 @@
     private Model model = new Model();
     private async Task Authenticate()
     {
-        var userAccount = context.Users.Where(x => x.Username == model.Login & x.Password == model.Password).FirstOrDefault();
+        var userAccount = context.Users.Where(x => x.Username == model.Login & x.Password == model.Password & x.DeletedAt == null).FirstOrDefault();
         if (userAccount == null)
         {
             await js.InvokeVoidAsync("alert", "Invalid");

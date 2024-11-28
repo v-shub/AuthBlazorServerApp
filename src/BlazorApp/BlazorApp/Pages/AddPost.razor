@@ -1,6 +1,8 @@
 ﻿@page "/add-post"
 @using Microsoft.EntityFrameworkCore;
+@using BlazorApp.Shared.Auth;
 @using BlazorApp.Models;
+@inject AuthenticationStateProvider authStateProvider
 @inject FamilyLifeContext context
 @attribute [Authorize(Roles = "Administrator,User")]
 
@@ -21,12 +23,14 @@
 	string content = "";
 	string header;
 	Post post = new Post();
-	private void Add()
+	private async Task Add()
 	{
 		post.Header = header;
 		post.PostContent = content;
 		post.CreatedAt = DateTime.Now;
-		post.Creator = context.Users.First();
+		var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+		var authState = await customAuthStateProvider.GetAuthenticationStateAsync();
+		post.Creator = context.Users.Find(Convert.ToInt32(authState.User.Claims.First().Value));
 		context.Posts.Add(post);
 		context.SaveChanges();
 		header = null;

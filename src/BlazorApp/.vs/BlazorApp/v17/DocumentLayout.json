@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\shared\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\shared\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\pages\\addpost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\addpost.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\shared\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\shared\\auth\\customauthenticationstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\shared\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\shared\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|c:\\users\\victo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\pract\\authblazorserverapp\\src\\blazorapp\\blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74851E38-A650-4157-B5B0-974972CAA2B5}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,32 +58,84 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\FetchData.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\FetchData.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T08:18:45.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Shared\\Auth\\UserSession.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Shared\\Auth\\UserSession.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Shared\\Auth\\UserSession.cs",
+              "RelativeToolTip": "BlazorApp\\Shared\\Auth\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:15:02.701Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Login.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:02:18.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Models\\User.cs",
+              "RelativeToolTip": "BlazorApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:00:34.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CustomAuthenticationStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
               "RelativeToolTip": "BlazorApp\\Shared\\Auth\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:20:33.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AddPost.razor",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\AddPost.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Pages\\AddPost.razor",
               "ToolTip": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\Pages\\AddPost.razor",
               "RelativeToolTip": "BlazorApp\\Pages\\AddPost.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T12:06:14.001Z"
+              "WhenOpened": "2024-11-27T12:06:14.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\victo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Pract\\AuthBlazorServerApp\\src\\BlazorApp\\BlazorApp\\App.razor",
               "RelativeDocumentMoniker": "BlazorApp\\App.razor",
