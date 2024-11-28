@@ -1,5 +1,80 @@
-﻿<h3>CreateAccount</h3>
+﻿@page "/create-account"
+@using BlazorApp.Shared.Auth;
+@using BlazorApp.Models;
+@using BlazorApp.Pages;
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+@inject FamilyLifeContext context
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3 text-center">
+            <h3>Creating account</h3>
+        </div>
+        <div class="mb-3">
+            <label>Login</label>
+            <input @bind="model.Login" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="model.Password" type="password" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label>BirthDate</label>
+            <input @bind="model.BirthDate" type="date" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label>ChildrenCount</label>
+            <input @bind="model.ChildrenCount" type="number" class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label>ExtraInfo</label>
+            <textarea @bind="model.ExtraInfo" class="form-control"></textarea>
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="AddUser" class="btn btn-primary">Create account</button>
+        </div>
+    </div>
+</div>
 
 @code {
-
+    private class Model
+    {
+        public string Login { get; set; }
+        public string Password { get; set; }
+        public DateTime BirthDate { get; set; }
+        public int ChildrenCount { get; set; }
+        public string? ExtraInfo { get; set; }
+    }
+    private Model model = new Model();
+    private async Task AddUser()
+    {
+        User user = new User();
+        if (context.Users.Where(x => x.Username == model.Login).Count() > 0)
+        {
+            await js.InvokeVoidAsync("alert", "This username is not free");
+            return;
+        }
+        if (model.Login == null|model.Password == null)
+        {
+            await js.InvokeVoidAsync("alert", "You should choose login and password");
+            return;
+        }
+        user.Username = model.Login;
+        user.Password = model.Password;
+        user.BirthdayDate = model.BirthDate;
+        user.ChildrenCount = model.ChildrenCount;
+        user.ExtraInfo = model.ExtraInfo;
+        context.Users.Add(user);
+        context.SaveChanges();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationStateAsync(new UserSession
+            {
+                Id = user.Id.ToString(),
+                UserName = user.Username,
+                Role = "User"
+            });
+        navManager.NavigateTo("/", true);
+    }
 }
