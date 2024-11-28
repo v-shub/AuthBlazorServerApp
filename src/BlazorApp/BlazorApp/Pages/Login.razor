@@ -13,11 +13,11 @@
         </div>
         <div class="mb-3">
             <label>Login</label>
-            <input @bind="model.Login" />
+            <input @bind="model.Login" class="form-control"/>
         </div>
         <div class="mb-3">
             <label>Password</label>
-            <input @bind="model.Password" type="password"/>
+            <input @bind="model.Password" type="password" class="form-control"/>
         </div>
         <div class="mb-3 d-grid gap-2">
             <button @onclick="Authenticate" class="btn btn-primary">Login</button>
